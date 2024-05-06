@@ -5,7 +5,7 @@ type ButtonProps = ComponentProps<"button">;
 
 const Button = ({ ...props }: ButtonProps) => {
   return (
-    <button className="text-blue-500" { ...props }>Click me</button>
+    <button className="btn btn-secondary text-blue-500" { ...props }>Click me</button>
   )
 }
 
